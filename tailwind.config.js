@@ -8,10 +8,6 @@ module.exports = {
       primary: `#6d35b0`,
       secondary: `#2d2e32`,
       grey: `#a6a9ab`,
-      gradient: `
-      #2d2e32
-      linear-gradient(90deg, rgba(36,35,39,1) 0%, rgba(45,46,50,1) 60%)
-      `,
     },
     screens: {
       sm: "640px",

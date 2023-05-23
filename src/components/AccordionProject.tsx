@@ -20,7 +20,7 @@ export default function AccordionProject({
   const [open, setOpen] = useState(true);
 
   return (
-    <div className="rounded-t-lg bg-gradient min-h-[100px] mb-5 w-full text-center">
+    <div className="rounded-t-lg bg-secondary min-h-[100px] mb-5 w-full text-center md:px-5">
       <button
         onClick={() => setOpen(!open)}
         className="group relative rounded-[15px] px-5 py-4 text-primary font-bold text-2xl w-full"

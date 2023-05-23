@@ -22,7 +22,7 @@ export default function AccordionStack({
 }: AcordionProps) {
   const [open, setOpen] = useState(false);
   return (
-    <div className="rounded-t-lg p-5 bg-gradient min-h-[100px] mb-5">
+    <div className="rounded-t-lg p-5 bg-secondary min-h-[100px] mb-5">
       <h2 className="mb-0 font-bold text-2xl" id="headingOne">
         <button
           onClick={() => setOpen(!open)}
