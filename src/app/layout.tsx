@@ -1,4 +1,3 @@
-import TechCircle from "@/components/TechCircle";
 import "./globals.css";
 import "./animations.css";
 import { Inter } from "next/font/google";
