@@ -30,7 +30,13 @@ export default function Home() {
                   <p className="font-medium">React</p>
                 </div>
                 <div className="rounded-md bg-primary w-min py-1 px-3 ">
+                  <p className="font-medium">Vue</p>
+                </div>
+                <div className="rounded-md bg-primary w-min py-1 px-3 ">
                   <p className="font-medium">NodeJs</p>
+                </div>
+                <div className="rounded-md bg-primary w-min py-1 px-3 ">
+                  <p className="font-medium">Laravel</p>
                 </div>
 
                 <div className="rounded-md bg-primary w-min py-1 px-3 ">
@@ -38,7 +44,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-1 relative mt-10">
+            <div className="col-1 relative mt-10 mb-10">
               <div className="w-full absolute aspect-square rounded-full slide-animation  left-0">
                 {" "}
                 <TechCircle logo={`react`} />
@@ -49,8 +55,8 @@ export default function Home() {
               <Image
                 priority
                 alt="Bruno Beise"
-                width={400}
-                height={300}
+                width={500}
+                height={400}
                 src={foto.src}
               />
             </div>
@@ -86,14 +92,14 @@ export default function Home() {
             </h4>
             <h3 className="text-white text-xl">
               Durante o curso, participei de diversos projetos, tanto do curso
-              quanto pessoais, aprimorando minhas capacidades técnicas. Estou
-              empolgado para mostrar o que sou capaz de criar. Explore meu
-              portfólio e veja alguns dos projetos que realizei. Trabalhei em
-              uma variedade de desafios, aplicando meus conhecimentos em
-              desenvolvimento web para criar soluções funcionais e intuitivas.
-              Estou pronto para enfrentar novos desafios e colaborar em seu
-              próximo projeto. Vamos trabalhar juntos para transformar suas
-              ideias em realidade!
+              quanto pessoais, aprimorando minhas capacidades técnicas. Ao
+              finalizar o curso, <b> fui contratado pela própria empresa </b>,
+              atuando como Tech Helper e desenvolvedor Full Stack. Estou
+              empolgado para mostrar o que sou capaz de criar. Trabalhei em uma
+              variedade de desafios, aplicando meus conhecimentos em
+              desenvolvimento para criar soluções funcionais e intuitivas. Sou
+              muito <b>criativo</b>, <b>comunicativo</b> e estou pronto para
+              enfrentar novos desafios e colaborar em seu próximo projeto.
             </h3>
           </div>
         </div>

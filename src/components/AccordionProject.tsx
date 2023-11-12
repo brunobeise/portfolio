@@ -4,7 +4,7 @@ import { Collapse } from "react-collapse";
 import Project from "./Project";
 import MGClogo from "../assets/projects/mgc/mgclogonovo.png";
 import Beiselogo from "../assets/projects/beiseuatomoveis/beise.png";
-import JokenpoLogo from "../assets/projects/jokenpo/jokenpologo.png";
+import JokenpoLogo from "../assets/projects/jokenpo/jokenpologo.svg";
 
 interface AcordionProps {
   title: string;
@@ -64,17 +64,11 @@ export default function AccordionProject({
           link="https://www.beiseautomoveis.com.br"
         />
         <Project
-          desc="O projeto do Jokenpô é um jogo baseado no clássico jogo de mãos conhecido como Pedra, Papel e Tesoura. O objetivo é criar
-           uma aplicação interativa que permita aos jogadores competirem entre si, escolhendo uma das três opções (pedra, papel ou tesoura)
-            e determinando o vencedor com base nas regras do jogo. Além disso, o projeto pode incluir recursos adicionais, como a 
-            possibilidade de jogar contra o computador, adicionar sons ou animações para tornar a experiência mais envolvente, e até mesmo 
-            a implementação de um sistema de pontuação para acompanhar o desempenho dos jogadores ao longo do tempo. No geral, o projeto do 
-            Jokenpô é uma oportunidade de criar uma aplicação divertida e interativa, que permite aos jogadores desafiarem seus amigos ou 
-            testarem suas habilidades contra o computador, enquanto relembram um jogo clássico e popular."
-          stacks="Principais Stacks: NextJs, Nodejs, Express, Typescript"
+          desc="O projeto Jokenpo reinventa o clássico jogo de Pedra, Papel e Tesoura em uma aplicação interativa, permitindo duelos entre jogadores. Cada participante escolhe entre pedra, papel ou tesoura, com o vencedor determinado pelas regras tradicionais. Este jogo digital se destaca com recursos adicionais como skins personalizáveis, um marketplace para negociações, um leaderboard para competições e leilões de skins. A economia do jogo gira em torno dos Jokens, uma moeda virtual, que pode ser movimentada via BNB com a Metamask. O Jokenpo é mais do que um jogo: é uma plataforma interativa que combina nostalgia e inovação, desafiando jogadores contra amigos ou o computador em um ambiente familiar, porém renovado. O projeto é completo, desde o banco de dados, backend, frontend e até design."
+          stacks="Principais Stacks: Vuejs, Socket.io, Express, Typescript, Vuetify, PostgreSQL"
           logo={JokenpoLogo.src}
           name="jokenpo"
-          link="https://jokenpo-14.vercel.app"
+          link="https://jokenpo.online"
         />
       </Collapse>
     </div>

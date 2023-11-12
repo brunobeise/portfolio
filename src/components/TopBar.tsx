@@ -15,7 +15,7 @@ export default function TopBar() {
         <div className="rounded-[10px] px-2 py-3 bg-bg shadow-animation">
           <h4 className="text-white text-sm">
             <span>
-              Whatsapp <WhatsAppIcon />
+              Whats <WhatsAppIcon />
             </span>
           </h4>
         </div>
@@ -33,7 +33,7 @@ export default function TopBar() {
         <div className="rounded-[10px] px-3 py-3 bg-bg shadow-animation">
           <h4 className="text-white text-sm">
             <span>
-              Instagram <InstagramIcon />
+              Insta <InstagramIcon />
             </span>
           </h4>
         </div>

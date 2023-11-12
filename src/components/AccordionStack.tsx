@@ -2,12 +2,8 @@
 import React, { useState } from "react";
 import { Collapse } from "react-collapse";
 import AccordionText from "./AccordionText";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCode,
-  faCodeCompare,
-  faDatabase,
-} from "@fortawesome/free-solid-svg-icons";
+
+import { HiCode, HiCubeTransparent, HiDatabase } from "react-icons/hi";
 
 interface AcordionProps {
   title: string;
@@ -34,20 +30,12 @@ export default function AccordionStack({
           aria-controls="collapseOne"
         >
           {title}
-          {type === `frontend` && (
-            <FontAwesomeIcon icon={faCode} className="absolute right-4 top-4" />
-          )}
+          {type === `frontend` && <HiCode className="absolute right-4 top-4" />}
           {type === `backend` && (
-            <FontAwesomeIcon
-              icon={faCodeCompare}
-              className="absolute right-4 top-4"
-            />
+            <HiCubeTransparent className="absolute right-4 top-4" />
           )}
           {type === `bancodedados` && (
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="absolute right-4 top-4"
-            />
+            <HiDatabase className="absolute right-4 top-4" />
           )}
         </button>
       </h2>
@@ -62,6 +50,7 @@ export default function AccordionStack({
             </h3>
             <AccordionText text="TypeScript como linguagem principal para desenvolvimento frontend, fornecendo recursos de tipagem estática e facilitando a manutenção do código." />
             <AccordionText text="React e Next.js como principais bibliotecas/frameworks para criação de aplicações web modernas e performáticas." />
+            <AccordionText text="Vue.js e Nuxt.js para desenvolvimento frontend, proporcionando uma abordagem reativa para a criação de interfaces de usuário dinâmicas, integrando-se facilmente com outras tecnologias." />
             <AccordionText text="Utilização do MUI (Material-UI), Bootstrap e Tailwind CSS para a criação de interfaces de usuário estilizadas e responsivas." />
           </div>
         )}
@@ -77,8 +66,9 @@ export default function AccordionStack({
             <AccordionText text="Socket.IO para comunicação em tempo real, permitindo a implementação de recursos como chats em tempo real e notificações push." />
             <AccordionText text="Criação de APIs RESTful utilizando frameworks como Express.js, facilitando o roteamento de solicitações e o tratamento de dados." />
             <AccordionText text="Implementação de autenticação e autorização usando JWT (JSON Web Tokens)." />
-            <AccordionText text="TypeORM como ORM para mapear e manipular bancos de dados relacionais, facilitando a interação com o banco de dados e consultas." />
+            <AccordionText text="TypeORM e Prisma como ORMs para mapear e manipular bancos de dados relacionais, facilitando a interação com o banco de dados e consultas." />
             <AccordionText text="Uso de ferramentas de versionamento de código, como Git, para controle de versão e colaboração em equipe." />
+            <AccordionText text="Laravel como framework de backend, oferecendo uma arquitetura MVC robusta, facilitando a construção de aplicações web com recursos avançados como filas de trabalho, testes automatizados e integração com bancos de dados." />
           </div>
         )}
         {type === `bancodedados` && (
