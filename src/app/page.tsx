@@ -25,7 +25,7 @@ export default function Home() {
                 processo.
               </h2>
 
-              <div className="mt-10 flex gap-5">
+              <div className="mt-10 flex flex-wrap gap-5">
                 <div className="rounded-md bg-primary w-min py-1 px-3 ">
                   <p className="font-medium">React</p>
                 </div>
@@ -63,6 +63,28 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 p-5 md:p-10">
+          <div className="text-center">
+            <h2 className="text-white text-3xl font-medium mb-5 text-shadow-animation">
+              Bem-vindo(a) ao meu portfólio!
+            </h2>
+            <h4 className="text-white font-medium text-xl mb-5 text-shadow-animation">
+              Sou desenvolvedor web full stack pela{" "}
+              <a className="font-medium hover:cursor-pointer">
+                Growdev <LaunchIcon />
+              </a>
+            </h4>
+            <h3 className="text-white text-md pb-10">
+              Durante o curso, participei de diversos projetos, tanto do curso
+              quanto pessoais, aprimorando minhas capacidades técnicas. Ao
+              finalizar o curso, <b> fui contratado pela própria empresa </b>,
+              atuando como Tech Helper e desenvolvedor Full Stack. Estou
+              empolgado para mostrar o que sou capaz de criar. Trabalhei em uma
+              variedade de desafios, aplicando meus conhecimentos em
+              desenvolvimento para criar soluções funcionais e intuitivas. Sou
+              muito <b>criativo</b>, <b>comunicativo</b> e estou pronto para
+              enfrentar novos desafios e colaborar em seu próximo projeto.
+            </h3>
+          </div>
           <div className="md:px-10">
             <AccordionStack
               title="FrontEnd"
@@ -79,28 +101,6 @@ export default function Home() {
               title="Banco de Dados"
               subtitle="Modelagem, consultas e otimização com PostgreSQL e Firebase."
             />
-          </div>
-          <div className="text-center">
-            <h2 className="text-white text-3xl font-medium mb-5 text-shadow-animation">
-              Bem-vindo(a) ao meu portfólio!
-            </h2>
-            <h4 className="text-white font-medium text-xl mb-5 text-shadow-animation">
-              Sou desenvolvedor web full stack pela{" "}
-              <a className="font-medium hover:cursor-pointer">
-                Growdev <LaunchIcon />
-              </a>
-            </h4>
-            <h3 className="text-white text-xl">
-              Durante o curso, participei de diversos projetos, tanto do curso
-              quanto pessoais, aprimorando minhas capacidades técnicas. Ao
-              finalizar o curso, <b> fui contratado pela própria empresa </b>,
-              atuando como Tech Helper e desenvolvedor Full Stack. Estou
-              empolgado para mostrar o que sou capaz de criar. Trabalhei em uma
-              variedade de desafios, aplicando meus conhecimentos em
-              desenvolvimento para criar soluções funcionais e intuitivas. Sou
-              muito <b>criativo</b>, <b>comunicativo</b> e estou pronto para
-              enfrentar novos desafios e colaborar em seu próximo projeto.
-            </h3>
           </div>
         </div>
         <div>
